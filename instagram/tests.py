@@ -28,4 +28,9 @@ class ImageTestClass(TestCase):
         posts = Image.objects.all()
         self.assertTrue(len(posts)>0)
 
+    '''test to check if delete function works'''
+    def test_delete_post(self):
+        self.image.delete_post()
+        posts = Image.objects.all()
+        self.assertTrue(len(posts)==0)
 
