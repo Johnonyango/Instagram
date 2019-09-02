@@ -34,3 +34,9 @@ class ImageTestClass(TestCase):
         posts = Image.objects.all()
         self.assertTrue(len(posts)==0)
 
+class ProfileTestClass(TestCase):
+    '''Set up profile object'''
+    def setUp(self):
+        self.profile = Profile(profile_photo="", bio="random psycho")
+
+
