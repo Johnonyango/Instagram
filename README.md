@@ -29,7 +29,7 @@ virtualenv -p /usr/bin/python3.6 venv && source venv/bin/activate
 
 ## Create the Database
 1. Run psql command
-2. CREATE DATABASE gallery;
+2. CREATE DATABASE instagram;
 3. \c gallery to connect to your database
 
 ##Run initial Migration
