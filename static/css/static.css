@@ -1,3 +1,5 @@
 body{
-    background-color: darkblue;
+    background-image: url("https://cdn.images.express.co.uk/img/dynamic/59/590x/Instagram-Stories-UK-881957.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
