@@ -49,7 +49,7 @@ copy paste to your preffered browser
 * Password:12345
 
 ## Known Bugs 
-No known bugs so far
+Profile page have lost functionality and our team are working round the clock to correct that.
 
 ## Technologies & Resources/Tools Used
 Technologies used include:
