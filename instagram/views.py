@@ -61,7 +61,7 @@ def new_profile(request):
 
 def profile(request):
     current_user = request.user
-    profile = Profile.objects.get(username=current_user)
+    # profile = Profile.objects.get(username=current_user)
     posts=Image.objects.filter(profile_id=current_user.id)
     return render(request, 'profile-page.html',{"profile":profile,"posts":posts})
 
