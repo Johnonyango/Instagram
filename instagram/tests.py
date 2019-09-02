@@ -39,4 +39,7 @@ class ProfileTestClass(TestCase):
     def setUp(self):
         self.profile = Profile(profile_photo="", bio="random psycho")
 
+    def test_instance(self):
+        self.assertTrue(isinstance(self.profile, Profile))
+
 
