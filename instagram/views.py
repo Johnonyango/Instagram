@@ -23,10 +23,10 @@ def search_results(request):
         searched_posts = Image.search_by_image_name(search_term)
         message = f"{search_term}"
 
-        return render(request, 'all-posts/search.html', {"message":message,"posts": searched_posts})
+        return render(request, 'templates/search.html', {"message":message,"posts": searched_posts})
     else:
         message = "You haven't searched for any term"
-        return render(request, 'all-posts/search.html',{"message":message})
+        return render(request, 'templates/search.html',{"message":message})
 
 '''function to enable user to post'''
 @login_required(login_url='/accounts/login/')
