@@ -1,5 +1,5 @@
 # INSTAGRAM
-###### By **[JOHN ONYANGO](https://)**
+###### By **[JOHN ONYANGO](https://github.com/Johnonyango/Instagram)**
 
 
 ## Description
@@ -7,7 +7,7 @@
 
 
 ## Setup/Installation Requirements
-1. Live site at 
+1. Live site at https://instajeep.herokuapp.com/
 2. Copy  and  Paste the clone button the link on your terminal
 3. cd to the clone folder
 4. Install requirements e.g:
